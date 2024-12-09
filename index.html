@@ -75,11 +75,9 @@
       <div class="flex flex-col justify-center item-center">
         <h1 class="text-7xl text-green-600 ">Hello,People </h1>
         <h1 class="text-5xl text-red-500">
-          I'am Vasim khan
+          I'am <span id="element" class="text-sky-500"></span>
         </h1>     
-     <h1 class="text-4xl text-amber-600">
-       I'am web deploper
-     </h1>
+     
         <div>
         <a href="https://www.instagram.com/vasim_khan_050?igsh=Z3FtYzR3bWI3OGc0" class=" c  ml-5">
           <i class="bi bi-instagram"></i>
@@ -101,6 +99,13 @@
       </div>
     </div>
   </div>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Vasim khan', 'Web Deploper '],
+      typeSpeed: 30,
+    });
+  </script>
 </body>
 
 </html>
