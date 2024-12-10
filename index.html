@@ -24,6 +24,9 @@
     .bg {
       background-color: aqua;
     }
+    .h{
+      height:1000px
+    }
   </style>
 
   <script src="https://cdn.tailwindcss.com"></script>
@@ -42,40 +45,40 @@
       <div>
         <ul class="text-3xl text-white flex  justify-center item-center mt-5 ">
           <li class="ml-3 hover:text-5xl hover:text-teal-500  transition duration-700 ml-4 ">
-            <a href="#Home"><i class="bi bi-house-door-fill">
+            <a href="Home"><i class="bi bi-house-door-fill">
                 Home
               </i>
             </a>
           </li>
           <li class="ml-3 flex  hover:text-5xl hover:text-teal-500 transition duration-700 ml-4 ">
-            <a href="#About">
+            <a href="About">
               <i class="bi bi-person-fill"> About</i>
             </a>
           </li>
           <li class="ml-3 hover:text-5xl hover:text-teal-500 transition duration-700 ml-4 ">
-            <a href="#Resume">
+            <a href="Resume">
               <i class="bi bi-card-list"> Resume</i>
             </a>
           </li>
           <li class="ml-3 hover:text-5xl hover:text-teal-500 transition duration-700 ml-4 ">
-            <a href="#Skill">
+            <a href="Skill">
               <i class="bi bi-heart-fill">Skill</i>
             </a>
           </li>
           <li class="ml-3 hover:text-5xl hover:text-teal-500 transition duration-700 ml-4 ">
-            <a href="#Project">
+            <a href="Project">
               <i class="bi bi-envelope-open-fill">project</i>
             </a>
           </li>
           <li class="ml-3 hover:text-5xl hover:text-teal-500 transition duration-700 ml-4 ">
-            <a href="#Contact ">
+            <a href="Contact ">
               <i class="bi bi-credit-card-2-front-fill">contact</i>
             </a>
           </li>
         </ul>
       </div>
     </header>
-    <div class="bg-[url(bg.jpg)] flex justify-between  bg-fixed h-full " id="#Home">
+    <div class="bg-[url(bg.jpg)] flex justify-between  bg-fixed h" id="Home">
       <div class="flex flex-col justify-center item-center">
         <h1 class="text-7xl text-green-600 ">Hello,People </h1>
         <h1 class="text-5xl text-red-500">
@@ -94,7 +97,7 @@
           </a>
         </div>
         <button class="bg w-32 hover:bg-cyan-400 transition duration-700 h mt-5 mr-8 ">
-          <a href="#Contact">contact me</a>
+          <a href="Contact">contact me</a>
         </button>
 
       </div>
@@ -102,7 +105,7 @@
         <img src="vasim.jpg" class="rounded-full shadow-2xl shadow-cyan-300 h-96 w-96 ">
       </div>
     </div>
-    <div class=" bg-black h-96  flex justify-between" id="#About">
+    <div class=" bg-black h-96  flex justify-between h" id="About">
       <div>
         <h1 class="text-8xl text-rose-400">
           About
@@ -162,18 +165,18 @@
 
       
     </div>
-    <div class="skill bg-[url(m2.jpg)]">
-      <h1 class="flex justify-center item-center text-lime-700 text-5xl">
+    <div class="skill bg-[url(m2.jpg)] h " id="Skill">
+      <h1 class="flex justify-center item-center text-lime-900 text-5xl">
         My Skill
       </h1>
       <li>
-        <h2 class="flex justify-between">Html <p>80%</p></h2><span class="bar"><span class="html"> </span></span></span>
+        <h2 class="flex justify-between text-sky-400"> <i class="bi bi-filetype-html"></i>Html <p>80%</p></h2><span class="bar"><span class="html"> </span></span></span>
       </li>
       <li>
-        <h2 class="flex justify-between">css <p>70%</p></h2><span class="bar"><span class="css"> </span></span></span>
+        <h2 class="flex justify-between text-sky-400"><i class="bi bi-filetype-css"></i>css <p>70%</p></h2><span class="bar"><span class="css"> </span></span></span>
     </li>
       <li>
-        <h2 class="flex justify-between">javascript <p>10%</p></h2><span class="bar"><span class="javascript"> </span></span></span>
+        <h2 class="flex justify-between text-sky-400"><i class="bi bi-filetype-js"></i>javascript <p>10%</p></h2><span class="bar"><span class="javascript"> </span></span></span>
     </li>
     </div>
   </div>
