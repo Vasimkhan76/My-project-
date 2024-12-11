@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+
+
+
+
+<body class=" flex justify-center align-center h-100vh">
+
+    <div >
+
+
+
+        <h1 class="text-blue-500  text-6xl text-center  ">Facebook</h1>
+
+        <div class="border-1 border-black  border-solid  p-5 mt-5 shadow-2xl w-50">
+
+            <h1 class="text-bold text-4xl">
+
+                create a new account
+
+            </h1>
+
+            <h2 class="text-center">
+
+                It's quick and easy
+
+            </h2>
+
+            <hr>
+
+            <div class="grid grid-cols-2 gap-4">
+
+
+
+            
+
+
+
+                <input class="border-2 mt-5 " type="text" name="username" placeholder="first name">
+
+        
+
+
+
+
+
+                <input class="border-2 mt-5" type="text" name="name" placeholder="surname">
+
+
+
+            </div>
+
+            <div>
+
+
+
+                <label for="dob"> date of brith? </label>
+
+                
+
+            </div>
+
+            <div class="grid grid-cols-3  gap-4">
+
+                <select class="border-2  " name="dob" id="dob">
+
+                    <option value="">Date</option>
+
+                    <option value="">1</option>
+
+                    <option value="">2</option>
+
+                    <option value="">3</option>
+
+                </select>
+
+
+
+                <select class="border-2 " name="month" id="month">
+
+                    <option value="">month</option>
+
+                    <option value="">1</option>
+
+                    <option value="">2</option>
+
+                    <option value="">3</option>
+
+                </select>
+
+
+
+                <select class="border-2 " name="year" id=" year">
+
+                    <option value="">Year</option>
+
+                    <option value="">2024</option>
+
+                    <option value="">2023</option>
+
+                    <option value="">2022</option>
+
+                </select>
+
+
+
+
+
+
+
+            </div>
+
+
+
+            <div>
+
+
+
+                <label for="gender"> gender?</label>
+
+
+
+            </div>
+
+            <div class="grid grid-cols-3 gap-4">
+
+
+
+                <div>
+
+
+
+
+
+                    <label for="fm">female</label>
+
+                    <input type="radio" name="gender" id="gender">
+
+                </div>
+
+                <div>
+
+
+
+
+
+                    <label for="male">male</label>
+
+                    <input type="radio" id="gender" name="gender">
+
+                </div>
+
+                <div>
+
+
+
+
+
+                    <label for="other">other</label>
+
+                    <input type="radio" id="gender" name="gender">
+
+                </div>
+
+
+
+            </div>
+
+            <div class="grid grid-cols-1 gap-4">
+
+
+
+                <input class="border-2 w " type=" email number" name="e and p"
+
+                    placeholder="mobile number or email address">
+
+            </div>
+
+
+
+            <div class="grid grid-cols-1 gap-4">
+
+                <input class="border-2 mb-2 " type="password" placeholder="new password">
+
+
+
+            </div>
+
+            <div>
+
+
+
+
+
+                <p>
+
+                    by clicking sign up you agree to our <a class="text-blue-500" href="#"> terms</a>
+
+                    <a class="text-blue-500" href="new.html"> privacy police</a>
+
+                    and<br><a class="text-blue-500" href="#"> cookies police</a>
+
+
+
+                </p>
+
+            </div>
+
+            <div>
+
+
+
+                <h1 class="text-center  ">
+
+
+
+                    <button class="border-2 bg-green-600 w-40 ">sign up</button>
+
+                </h1>
+
+            </div>
+
+            <div>
+
+
+
+                <h1 class="text-center">
+
+                    <a class="text-blue-500 " href="#">Already have an account?</a>
+
+                </h1>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+
+
+</html>
