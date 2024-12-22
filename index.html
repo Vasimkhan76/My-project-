@@ -2,316 +2,390 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>my website</title>
-<link rel="stylesheet" href="skill.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <style>
-    .v {
-      height: 14px;
-    }
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>my website</title>
+    <link rel="stylesheet" href="skill.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .v {
+            height: 14px;
+        }
 
-    .f {
-      font-family: Sofia;
-    }
+        .f {
+            font-family: Sofia;
+        }
 
-    .c {
-      color: aqua;
-    }
+        .c {
+            color: aqua;
+        }
 
-    .bg {
-      background-color: aqua;
-    } 
-    .animation{
-      cursor: default;
-      animation:slideTop 1s ease forwards
-    }
-    @keyframes slideTop{
-      0%{
-        transform: translateY(100px)
-      }
-      100%{
-        transform:translateY(0px)
-      }
-    }
-    
-  </style>
+        .bg {
+            background-color: aqua;
+        }
 
-  <script src="https://cdn.tailwindcss.com"></script>
+        .animation {
+            cursor: default;
+            animation: slideTop 1s ease forwards
+        }
+
+        @keyframes slideTop {
+            0% {
+                transform: translateY(100px)
+            }
+
+            100% {
+                transform: translateY(0px)
+            }
+        }
+    </style>
+
+    <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 
 <body>
-  <div class="w-full">
-<!--     header -->
-    <header class="flex justify-between bg-black  w-full underline-offset-4 sticky top-0  ">
-      <div class="flex animation">
-        <img src="head.png" class="w-40 h-32 rounded-full ">
-        <h1 class="text-4xl text-green-400 mt-5 f">
-          Vasim khan
-        </h1>
-      </div>
-<!--    home   links -->
-      <div class="animation">
-        <ul class="text-3xl text-white flex  justify-center item-center mt-5 ">
-          <li class="ml-3 hover:underline underline-offset-8 hover:text-teal-500  transition duration-700 ml-7 ">
-            <a href="#home">
-              <i class="bi bi-house-door-fill">
-                Home
-              </i>
-            </a>
-          </li>
-          <li class=" flex  hover:underline underline-offset-8 hover:text-teal-500 transition duration-700 ml-7 ">
-            <a href="#about">
-              <i class="bi bi-person-fill"> About</i>
-            </a>
-          </li>
-          <li class=" hover:underline underline-offset-8 hover:text-teal-500 transition duration-700 ml-7 ">
-            <a href="#resume">
-              <i class="bi bi-card-list"> Resume</i>
-            </a>
-          </li>
-          <li class=" hover:underline underline-offset-8 hover:text-teal-500 transition duration-700 ml-7 ">
-            <a href="#skill">
-              <i class="bi bi-heart-fill">Skill</i>
-            </a>
-          </li>
-          <li class=" hover:underline underline-offset-8 hover:text-teal-500 transition duration-700 ml-7 ">
-            <a href="#project">
-              <i class="bi bi-envelope-open-fill">project</i>
-            </a>
-          </li>
-          <li class=" hover:underline underline-offset-8 hover:text-teal-500 transition duration-700 ml-7 ">
-            <a href="#contact ">
-              <i class="bi bi-credit-card-2-front-fill">contact</i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </header>
-<!--     home section -->
-    <div class="bg-[url(bg.jpg)] flex justify-between  bg-fixed " id="home" p-16>
-      <div class="flex flex-col justify-center item-center animation">
-        <h1 class="text-7xl text-green-600 ">Hello,People
-        </h1>
-        <h1 class="text-5xl text-red-500">
-          I'am
-          <span id="element" class="text-sky-400 f">
-            
-          </span>
-        </h1>
+    <div class="w-full">
+        <!--     header -->
+        <header class="flex justify-between bg-black  w-full underline-offset-4 sticky top-0  ">
+            <div class="flex">
+                <img src="head.png" class="w-40 h-32 rounded-full ">
+                <h1 class="text-4xl text-green-400 mt-5 f">
+                    Vasim khan
+                </h1>
+            </div>
+            <!--    home   links -->
+            <div class="animation">
+                <ul class="text-3xl text-white flex  justify-center item-center mt-5 ">
+                    <li
+                        class="ml-3 hover:underline underline-offset-8 hover:text-teal-500  transition duration-700 ml-7 ">
+                        <a href="#home">
+                            <i class="bi bi-house-door-fill">
+                                Home
+                            </i>
+                        </a>
+                    </li>
+                    <li
+                        class=" flex  hover:underline underline-offset-8 hover:text-teal-500 transition duration-700 ml-7 ">
+                        <a href="#about">
+                            <i class="bi bi-person-fill"> About</i>
+                        </a>
+                    </li>
+                    <li class=" hover:underline underline-offset-8 hover:text-teal-500 transition duration-700 ml-7 ">
+                        <a href="#resume">
+                            <i class="bi bi-card-list"> Resume</i>
+                        </a>
+                    </li>
+                    <li class=" hover:underline underline-offset-8 hover:text-teal-500 transition duration-700 ml-7 ">
+                        <a href="#skill">
+                            <i class="bi bi-heart-fill">Skill</i>
+                        </a>
+                    </li>
+                    <li class=" hover:underline underline-offset-8 hover:text-teal-500 transition duration-700 ml-7 ">
+                        <a href="#project">
+                            <i class="bi bi-envelope-open-fill">project</i>
+                        </a>
+                    </li>
+                    <li class=" hover:underline underline-offset-8 hover:text-teal-500 transition duration-700 ml-7 ">
+                        <a href="#contact ">
+                            <i class="bi bi-credit-card-2-front-fill">contact</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!--     home section -->
+        <div class="bg-[url(bg.jpg)] flex justify-between  bg-fixed " id="home" p-16>
+            <div class="flex flex-col justify-center item-center animation">
+                <h1 class="text-7xl text-green-600 ">Hello,People
+                </h1>
+                <h1 class="text-5xl text-red-500">
+                    I'am
+                    <span id="element" class="text-sky-400 f">
 
-        <div class="mt-2 animation">
-          <a href="https://www.instagram.com/vasim_khan_050?igsh=Z3FtYzR3bWI3OGc0" class=" c  ml-5 text-4xl">
-            <i class="bi bi-instagram"></i>
-          </a>
-          <a href="https://www.facebook.com/profile.php?id=100020528649710" class=" c  ml-5 text-4xl">
-            <i class="bi bi-facebook"></i>
-          </a>
-          <a href="https://youtube.com/@animationhero5990?si=WUMCctqo3WXOZIAE" class=" c  ml-5 text-4xl">
-            <i class="bi bi-youtube"></i>
-          </a>
+                    </span>
+                </h1>
+
+                <div class="mt-2 animation">
+                    <a href="https://www.instagram.com/vasim_khan_050?igsh=Z3FtYzR3bWI3OGc0" class=" c  ml-5 text-4xl">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100020528649710" class=" c  ml-5 text-4xl">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://youtube.com/@animationhero5990?si=WUMCctqo3WXOZIAE" class=" c  ml-5 text-4xl">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </div>
+                <button class="bg w-32 hover:bg-cyan-400 transition duration-700 h mt-5 mr-8 animation ">
+                    <a href="#Contact">contact me</a>
+                </button>
+
+            </div>
+            <div class="animation">
+                <img src="about.png" class="rounded-full shadow-2xl shadow-cyan-300 h-96 w-96 ">
+            </div>
         </div>
-        <button class="bg w-32 hover:bg-cyan-400 transition duration-700 h mt-5 mr-8 animation ">
-          <a href="#Contact">contact me</a>
-        </button>
+        <!--     about section] -->
+        <div class=" bg-black   flex justify-between  p-16 " id="about">
+            <div class="">
+                <h1 class="text-5xl text-orange-700 underline underline-offset-8">
+                    About
+                </h1>
 
-      </div>
-      <div class="animation">
-        <img src="about.png" class="rounded-full shadow-2xl shadow-cyan-300 h-96 w-96 ">
-      </div>
-    </div>
-<!--     about section] -->
-    <div class=" bg-black   flex justify-between  p-16 " id="about">
-      <div class="">
-        <h1 class="text-5xl text-orange-700 underline underline-offset-8">
-          About
-        </h1>
-        
-      <img src="ab.png" class="h-52 w-52">
+                <img src="ab.png" class="h-52 w-52">
+
+            </div>
+            <div class="">
+                <h1 class="text-5xl text-sky-400">
+                    Web Deploper
+                </h1>
+                <p class="text-red-400 mb-3">
+                    Hey I am vasim khan,a web deploper, pationate in coding and i love cricket
+                </p>
+
+                <h1 class="text-bold  mb-3  flex text-white"><i class="bi bi-chevron-double-right"></i>
+                    <strong> Brithday: </strong>
+                    <p class="ml-2">20 may 2004</p>
+                </h1>
+
+
+
+                <h1 class="text-bold  mb-3 flex text-white "><i class="bi bi-chevron-double-right"></i>
+                    <strong> Website:</strong>
+                    <p class="ml-2"> <a href="#" class="text-blue-400"> Visit Us</a></p>
+                </h1>
+
+
+
+                <h1 class="text-bold flex text-white   mb-3"><i class="bi bi-chevron-double-right"></i>
+                    <strong> Phone:</strong>
+                    <p class="ml-2">84******15 </p>
+                </h1>
+
+
+
+                <h1 class="text-bold flex text-white mb-3"><i class="bi bi-chevron-double-right"></i>
+                    <strong> City:</strong>
+                    <p class="ml-2"> Khandwa</p>
+                </h1>
+
+
+
+                <h1 class="text-bold text-white  flex  mb-3 "><i class="bi bi-chevron-double-right"></i>
+                    <strong> Age:</strong>
+                    <p class="ml-2"> 19</p>
+                </h1>
+
+                <h1 class="text-bold text-white flex   mb-3"><i class="bi bi-chevron-double-right"></i>
+                    <strong> Degree:</strong>
+                    <p class="ml-2">Data Science[Running] </p>
+                </h1>
+
+
+
+                <h1 class="text-bold  flex text-white  mb-3 "><i class="bi bi-chevron-double-right"></i>
+                    <strong class="mr-2"> Email:</strong>
+                    <p class="ml-2">vasimdeploper786@gmail.com </p>
+                </h1>
+
+            </div>
+
+
 
         </div>
-          <div class="">
-        <h1 class="text-5xl text-sky-400">
-          Web Deploper
-        </h1>
-        <p class="text-red-400 mb-3">
-          Hey I am vasim khan,a web deploper, pationate in coding and i love cricket
-        </p>
-
-        <h1 class="text-bold  mb-3  flex text-white"><i class="bi bi-chevron-double-right"></i>
-        <strong>  Brithday: </strong> <p class="ml-2">20 may 2004</p>
-        </h1>
-
-
-
-        <h1 class="text-bold  mb-3 flex text-white "><i class="bi bi-chevron-double-right"></i>
-         <strong> Website:</strong> <p class="ml-2"> <a href="#" class="text-blue-400"> Visit Us</a></p>
-        </h1>
-
-
-
-        <h1 class="text-bold flex text-white   mb-3"><i class="bi bi-chevron-double-right"></i>
-         <strong> Phone:</strong><p class="ml-2">84******15 </p>
-        </h1>
-
-
-
-        <h1 class="text-bold flex text-white mb-3"><i class="bi bi-chevron-double-right"></i>
-         <strong> City:</strong><p class="ml-2"> Khandwa</p>
-        </h1>
-
-
-
-        <h1 class="text-bold text-white  flex  mb-3 "><i class="bi bi-chevron-double-right"></i>
-         <strong> Age:</strong><p class="ml-2"> 19</p>
-        </h1>
-
-        <h1 class="text-bold text-white flex   mb-3"><i class="bi bi-chevron-double-right"></i>
-        <strong>  Degree:</strong><p class="ml-2">Data Science[Running]                                                                                                                                                                                 </p>
-        </h1>
-
-
-
-        <h1 class="text-bold  flex text-white  mb-3 "><i class="bi bi-chevron-double-right"></i>
-        <strong class="mr-2">  Email:</strong><p class="ml-2">vasimdeploper786@gmail.com </p>
-        </h1>
-
-      </div>
-      
-
-      
-    </div>
-<!--     skill section -->
-    <div class="skill bg-[url(m2.jpg)]  bg-no-repate bg-cover flex justify-center item-center w-full  p-16" id="skill">
-      <div class="w-4/5 ">
-      <h1 class="flex justify-center item-center c text-5xl">
-        My Skill
-      </h1>
-      <li>
-       <div class="flex justify-between "> <h2 class=" text-sky-400 text-3xl"> <i class="bi bi-filetype-html"></i>Html </h2> <p class="text-sky-400 text-3xl">80%</p> </div> <span class="bar"><span class="html"> </span></span></span>
-      </li>
-      <li>
-     <div class="flex justify-between "> <h2 class=" text-sky-400 text-3xl"><i class="bi bi-filetype-css"></i>css </h2><p class="text-sky-400 text-3xl">60%</p></div><span class="bar"><span class="css"> </span></span></span>
-    </li>
-      <li>
-        <div class="flex justify-between ">
-        <h2 class=" text-sky-400 text-3xl"><i class="bi bi-filetype-js"></i>javascript</h2> <p class="text-sky-400 text-3xl">10%</p> </div><span class="bar"><span class="javascript"> </span></span></span>
-    </li>
-        <li>
-     <div class="flex justify-between "> <h2 class=" text-sky-400 text-3xl"><i class="bi bi-amd"></i>Tailwind css </h2><p class="text-sky-400 text-3xl">40%</p></div><span class="bar"><span class=" tailwind-css"> </span></span>
-      </li>
-        <li>
-     <div class="flex justify-between "> <h2 class=" text-sky-400 text-3xl"><i class="bi bi-github"></i>Github </h2><p class="text-sky-400 text-3xl">30%</p></div><span class="bar"><span class="github"> </span></span>
-      </li>
-      </div>
-    </div>
-<!--     resume section -->
-    <div class=" p-16 bg-black" id="resume">
-      <h1 class=" mb-6 text-7xl text-sky-400 underline underline-offset-8  "> Resume </h1>
-      <h1 class=" mb-3 text-3xl text-green-400 "> <strong class="mr-2">Summary </strong></h1>
-      <h1 class =" text-white "> <i class="bi bi-arrow-right-circle-fill c"></i>Vasim khan</h1>
-      <h1 class =" text-white "><i class="bi bi-arrow-right-circle-fill c"></i>Malgaon, khandwa</h1>
-      <h1 class =" text-white "><i class="bi bi-arrow-right-circle-fill c"></i>843****915</h1>
-      <h1 class =" text-white "><i class="bi bi-arrow-right-circle-fill c"></i>vasimdeploper786@gmail.com</h1>
-       <h1 class=" mt-3 mb-2 text-3xl text-green-400">Education </h1>
-       <h1 class=" text-green-400 "> <strong class="mr-2">HIGHER SECONDARY SCHOOL </strong></h1>
-      <button class=" bg-sky-200 ml-3 mb-2"> 2022-2023</button>
-      <p class =" text-white "><i class="bi bi-arrow-right-circle-fill c"></i>C.M Rise School Chhaigaon Makhan Khandwa[M.P]</p>
-     <p class =" text-white "> <i class="bi bi-arrow-right-circle-fill c"></i>I Have Complete My Class 12th From C.M Rise School Chhaigaon makhan khandwa {m.p.} </p>
-      <h1 class=" mt-3 mb-2 text-green-400 "><strong class="mr-2">B.TECH IN DATA SCIENCE</strong></h1>
-     <button class=" bg-sky-200 ml-3 mb-2">2024-2028</button> 
-      <p class =" text-white "><i class="bi bi-arrow-right-circle-fill c"></i>Shri Dadaji Institute of Technology And Science </p>
-      <p class =" text-white "><i class="bi bi-arrow-right-circle-fill c"></i>Currently,I am doing my B.Tech in Data Science from SDITS Khandwa</p>
-      
-    </div>
-<!--     project section -->
-    <div class="bg-sky-100 p-16" id="project">
-      <h1 class=" text-6xl text-indigo-600 text-center pt-3 m-3  underline underline-offset-8 mb-3   ">Projects</h1>
-      <div class=" grid grid-cols-3 gap-24">
-        <div class="p-8 rounded-xl shadow border-2 border-black bg-green-200"><img src="p1.png" class="w-56 h-52 shadow-2xl flex justify-center item-center ml-16 "> <h1 class="text-xl text-sky-400 font-bold text-center ">Calculator  </h1> <a href="calc.html"class="rounded-xl bg-orange-400 text-center w-40 ml-28">View</a></div>
- <div class="p-8 rounded-xl shadow border-2 border-black bg-green-200"><img src="p2.png" class="w-56 h-52 shadow-2xl flex justify-center item-center ml-16 "> <h1 class="text-xl text-sky-400 font-bold text-center ">linkedin </h1><a href="linkedin.html" class="rounded-xl bg-orange-400 text-center w-40 ml-28">view</a></div>
-      <div class="p-8 rounded-xl shadow border-2 border-black bg-green-200"><img src="p3.png" class="w-56 h-52 shadow-2xl flex justify-center item-center ml-16 "> <h1 class="text-xl text-sky-400 font-bold text-center ">swamy vivekanand  </h1><a href="sir.html" class="rounded-xl bg-orange-400 text-center w-40 ml-28">view</a></div>  
-   <div class="p-8 rounded-xl shadow border-2 border-black bg-green-200"><img src="p4.png" class="w-56 h-52 shadow-2xl flex justify-center item-center ml-16 "> <h1 class="text-xl text-sky-400 font-bold text-center ">Diwali wish </h1><a href="task25.html" class="rounded-xl bg-orange-400 text-center w-40 ml-28">view</a></div>
-<div class="p-8 rounded-xl shadow border-2 border-black bg-green-200"><a href="fb-signup.html"><img src="p5.png" class="w-56 h-52 shadow-2xl flex justify-center ml-16 item-center  "> <h1 class="text-xl text-sky-400 font-bold text-center ">facebook registration  </h1><a href="fb-signup.html" class="rounded-xl bg-orange-400 text-center w-40 ml-28">view</a></div>
-<div class="p-8 rounded-xl shadow border-2 border-black bg-green-200"><a href="studentpage.html"><img src="p6.png" class="w-56 h-52 shadow-2xl flex justify-center ml-16 item-center  "> <h1 class="text-xl text-sky-400 font-bold text-center ">student registration  </h1><a href="studentpage.html" class="rounded-xl bg-orange-400 text-center w-40 ml-28">view</a></div>
-     <div class="p-8 rounded-xl shadow border-2 border-black bg-green-200"><img src="p7.png" class="w-56 h-52 shadow-2xl flex justify-center item-center ml-16 "> <h1 class="text-xl text-sky-400 font-bold text-center ">Instagram </h1><a href="Insta.html" class="rounded-xl bg-orange-400 text-center w-40 ml-28 ">view</a></div>
-        <div class="p-8 rounded-xl shadow border-2 border-black bg-green-200 "><img src="p8.png" class="w-56 h-52 shadow-2xl flex justify-center item-center ml-16  "> <h1 class="text-xl text-sky-400 font-bold text-center ">facebook login </h1><a href="fb-login.html" class="rounded-xl bg-orange-400 text-center w-40 ml-28">view</a></div>
-      </div>
-      
-   
-
-                                                                                                                          
-      
-    </div>
-<!--     contact section[ -->
-    <div class="p-24 bg-blue-100" id="contact">
-      <h1 class =" text-5xl underline underline-offset-8 text-sky-400 ">Contact Me</h1>
-      <p class=" mb-4 mt-4">feel free  for ask anything </p>
-      <div class=" shadow-2xl  w-4/5 h-60 bg-white p-2  ">
-        <div class ="">
-        <section class=" flex mt-3">
-          <i class="bi bi-geo-alt-fill  text-4xl rounded-full text-sky-400 "></i> 
-          <div><h1 class="ml-4 text-2xl">Location </h1><p>Malgaon,Khandwa[m.p.]</p>
-          </div>
-        </section>
-        <section class=" flex mt-3">
-          <i class="bi bi-envelope-at-fill text-4xl rounded-full text-sky-400 "></i>
-          <div><h1 class="ml-4 text-2xl"> Email</h1><p>vasimdeploper786@gmail.com</p>
-          </div>
-        </section>
-        <section class=" flex mt-3">
-          <i class="bi bi-phone-fill  text-4xl rounded-full text-sky-400"></i>
-          <div><h1 class="ml-4 text-2xl"> Phone.No.</h1>   <p>843****915</p></div>
-        </section>
- 
+        <!--     skill section -->
+        <div class="skill bg-[url(m2.jpg)]  bg-no-repate bg-cover flex justify-center item-center w-full  p-16"
+            id="skill">
+            <div class="w-4/5 ">
+                <h1 class="flex justify-center item-center c text-5xl">
+                    My Skill
+                </h1>
+                <li>
+                    <div class="flex justify-between ">
+                        <h2 class=" text-sky-400 text-3xl"> <i class="bi bi-filetype-html"></i>Html </h2>
+                        <p class="text-sky-400 text-3xl">80%</p>
+                    </div> <span class="bar"><span class="html"> </span></span></span>
+                </li>
+                <li>
+                    <div class="flex justify-between ">
+                        <h2 class=" text-sky-400 text-3xl"><i class="bi bi-filetype-css"></i>css </h2>
+                        <p class="text-sky-400 text-3xl">60%</p>
+                    </div><span class="bar"><span class="css"> </span></span></span>
+                </li>
+                <li>
+                    <div class="flex justify-between ">
+                        <h2 class=" text-sky-400 text-3xl"><i class="bi bi-filetype-js"></i>javascript</h2>
+                        <p class="text-sky-400 text-3xl">10%</p>
+                    </div><span class="bar"><span class="javascript"> </span></span></span>
+                </li>
+                <li>
+                    <div class="flex justify-between ">
+                        <h2 class=" text-sky-400 text-3xl"><i class="bi bi-amd"></i>Tailwind css </h2>
+                        <p class="text-sky-400 text-3xl">40%</p>
+                    </div><span class="bar"><span class=" tailwind-css"> </span></span>
+                </li>
+                <li>
+                    <div class="flex justify-between ">
+                        <h2 class=" text-sky-400 text-3xl"><i class="bi bi-github"></i>Github </h2>
+                        <p class="text-sky-400 text-3xl">30%</p>
+                    </div><span class="bar"><span class="github"> </span></span>
+                </li>
+            </div>
         </div>
-      </div>
-      <div class="shadow-2xl w-4/5  flex justify-center item-center mt-8 p-8 bg-white ">
-        <div class="">
-        <div class=" grid grid-cols-2 gap-4">
-<div>
-<lebal for="name">Name</lebal>
- <input tpye="text" class="border-2  border-black ">
-</div>
-          <div>
-          <lebal for="email"> Email</lebal>
-          <input type="email" class="border-2  border-black ">
-          </div>
-          
-          
-</div>
-        <div class="grid grid-cols-1 gap-4 mt-2">
-          <lebal>Subject: </lebal>
-          <input type="text" class="border-2  border-black ">
-        </div>
-         <div class="grid grid-cols-1 gap-4 ">  
-           <lebal class="">Message: </lebal>
-           <textarea row="100" class="border-2  border-black h-40 "></textarea>
-         </div>
-          <button class="flex justify-center item-center bg-blue-400  mt-2 ml-32 w-32"> Send</button>
-      </div>
-    </div>
-   
-  </div>
-<!-- foter section -->
-<div class="bg-black flex justify-center item-center w-full "> <h1 class="text-white animation  text-2xl font-bold"> All@Copyright received by:- Digital Computing <br> Deploped By:- <spam class="text-sky-400">Vasim Khan</spam>
-   
-   </h1></div>
+        <!--     resume section -->
+        <div class=" p-16 bg-black" id="resume">
+            <h1 class=" mb-6 text-7xl text-sky-400 underline underline-offset-8  "> Resume </h1>
+            <h1 class=" mb-3 text-3xl text-green-400 "> <strong class="mr-2">Summary </strong></h1>
+            <h1 class=" text-white "> <i class="bi bi-arrow-right-circle-fill c"></i>Vasim khan</h1>
+            <h1 class=" text-white "><i class="bi bi-arrow-right-circle-fill c"></i>Malgaon, khandwa</h1>
+            <h1 class=" text-white "><i class="bi bi-arrow-right-circle-fill c"></i>843****915</h1>
+            <h1 class=" text-white "><i class="bi bi-arrow-right-circle-fill c"></i>vasimdeploper786@gmail.com</h1>
+            <h1 class=" mt-3 mb-2 text-3xl text-green-400">Education </h1>
+            <h1 class=" text-green-400 "> <strong class="mr-2">HIGHER SECONDARY SCHOOL </strong></h1>
+            <button class=" bg-sky-200 ml-3 mb-2"> 2022-2023</button>
+            <p class=" text-white "><i class="bi bi-arrow-right-circle-fill c"></i>C.M Rise School Chhaigaon Makhan
+                Khandwa[M.P]</p>
+            <p class=" text-white "> <i class="bi bi-arrow-right-circle-fill c"></i>I Have Complete My Class 12th From
+                C.M Rise School Chhaigaon makhan khandwa {m.p.} </p>
+            <h1 class=" mt-3 mb-2 text-green-400 "><strong class="mr-2">B.TECH IN DATA SCIENCE</strong></h1>
+            <button class=" bg-sky-200 ml-3 mb-2">2024-2028</button>
+            <p class=" text-white "><i class="bi bi-arrow-right-circle-fill c"></i>Shri Dadaji Institute of Technology
+                And Science </p>
+            <p class=" text-white "><i class="bi bi-arrow-right-circle-fill c"></i>Currently,I am doing my B.Tech in
+                Data Science from SDITS Khandwa</p>
 
-  </div>
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['Vasim khan', 'Web Deploper '],
-      typeSpeed: 100,
-      backspeed: 100,
-      backdelay: 1000,
-      loop: true
-    });
-  </script>
+        </div>
+        <!--     project section -->
+        <div class="bg-sky-100 p-16" id="project">
+            <h1 class=" text-6xl text-indigo-600 text-center pt-3 m-3  underline underline-offset-8 mb-3   ">Projects
+            </h1>
+            <div class=" grid grid-cols-3 gap-24">
+                <div class="p-8 rounded-xl shadow border-2 border-black bg-green-200"><img src="p1.png"
+                        class="w-56 h-52 shadow-2xl flex justify-center item-center  ">
+                    <h1 class="text-xl text-sky-400 font-bold text-center ">Calculator </h1> <a href="calc.html"
+                        class="rounded-xl bg-orange-400 text-center w-40 ml-28">View</a>
+                </div>
+                <div class="p-8 rounded-xl shadow border-2 border-black bg-green-200"><img src="p2.png"
+                        class="w-56 h-52 shadow-2xl flex justify-center item-center  ">
+                    <h1 class="text-xl text-sky-400 font-bold text-center ">linkedin </h1><a href="linkedin.html"
+                        class="rounded-xl bg-orange-400 text-center w-40 ml-28">view</a>
+                </div>
+                <div class="p-8 rounded-xl shadow border-2 border-black bg-green-200"><img src="p3.png"
+                        class="w-56 h-52 shadow-2xl flex justify-center item-center  ">
+                    <h1 class="text-xl text-sky-400 font-bold text-center ">swamy vivekanand </h1><a href="sir.html"
+                        class="rounded-xl bg-orange-400 text-center w-40 ml-28">view</a>
+                </div>
+                <div class="p-8 rounded-xl shadow border-2 border-black bg-green-200"><img src="p4.png"
+                        class="w-56 h-52 shadow-2xl flex justify-center item-center  ">
+                    <h1 class="text-xl text-sky-400 font-bold text-center ">Diwali wish </h1><a href="task25.html"
+                        class="rounded-xl bg-orange-400 text-center w-40 ml-28">view</a>
+                </div>
+                <div class="p-8 rounded-xl shadow border-2 border-black bg-green-200"><a href="fb-signup.html"><img
+                            src="p5.png" class="w-56 h-52 shadow-2xl flex justify-center  item-center  ">
+                        <h1 class="text-xl text-sky-400 font-bold text-center ">facebook registration </h1><a
+                            href="fb-signup.html" class="rounded-xl bg-orange-400 text-center w-40 ml-28">view</a></div>
+                
+                         
+                            <div class="p-8 rounded-xl shadow border-2 border-black bg-green-200"><a href="studentpage.html"><img
+                            src="p6.png" class="w-56 h-52 shadow-2xl flex justify-center  item-center  ">
+                        <h1 class="text-xl text-sky-400 font-bold text-center ">student registration </h1><a
+                            href="studentpage.html" class="rounded-xl bg-orange-400 text-center w-40 ml-28">view</a>
+                </div>
+                <div class="p-8 rounded-xl shadow border-2 border-black bg-green-200"><img src="p7.png"
+                        class="w-56 h-52 shadow-2xl flex justify-center item-center  ">
+                    <h1 class="text-xl text-sky-400 font-bold text-center ">Instagram </h1><a href="Insta.html"
+                        class="rounded-xl bg-orange-400 text-center w-40 ml-28 ">view</a>
+                </div>
+                <div class="p-8 rounded-xl shadow border-2 border-black bg-green-200 "><img src="p8.png"
+                        class="w-56 h-52 shadow-2xl flex justify-center item-center   ">
+                    <h1 class="text-xl text-sky-400 font-bold text-center ">facebook login </h1><a href="fb-login.html"
+                        class="rounded-xl bg-orange-400 text-center w-40 ml-28">view</a>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+        <!--     contact section[ -->
+        <div class="p-24 bg-blue-100" id="contact">
+            <h1 class=" text-5xl underline underline-offset-8 text-sky-400 ">Contact Me</h1>
+            <p class=" mb-4 mt-4">feel free for ask anything </p>
+            <div class=" shadow-2xl  w-4/5 h-60 bg-white p-2  ">
+                <div class="">
+                    <section class=" flex mt-3">
+                        <i class="bi bi-geo-alt-fill  text-4xl rounded-full text-sky-400 "></i>
+                        <div>
+                            <h1 class="ml-4 text-2xl">Location </h1>
+                            <p>Malgaon,Khandwa[m.p.]</p>
+                        </div>
+                    </section>
+                    <section class=" flex mt-3">
+                        <i class="bi bi-envelope-at-fill text-4xl rounded-full text-sky-400 "></i>
+                        <div>
+                            <h1 class="ml-4 text-2xl"> Email</h1>
+                            <p>vasimdeploper786@gmail.com</p>
+                        </div>
+                    </section>
+                    <section class=" flex mt-3">
+                        <i class="bi bi-phone-fill  text-4xl rounded-full text-sky-400"></i>
+                        <div>
+                            <h1 class="ml-4 text-2xl"> Phone.No.</h1>
+                            <p>843****915</p>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+            <div class="shadow-2xl w-4/5  flex justify-center item-center mt-8 p-8 bg-white ">
+                <div class="">
+                    <div class=" grid grid-cols-2 gap-4">
+                        <div>
+                            <lebal for="name">Name</lebal>
+                            <input tpye="text" class="border-2  border-black ">
+                        </div>
+                        <div>
+                            <lebal for="email"> Email</lebal>
+                            <input type="email" class="border-2  border-black ">
+                        </div>
+
+
+                    </div>
+                    <div class="grid grid-cols-1 gap-4 mt-2">
+                        <lebal>Subject: </lebal>
+                        <input type="text" class="border-2  border-black ">
+                    </div>
+                    <div class="grid grid-cols-1 gap-4 ">
+                        <lebal class="">Message: </lebal>
+                        <textarea row="100" class="border-2  border-black h-40 "></textarea>
+                    </div>
+                    <button class="flex justify-center item-center bg-blue-400  mt-2 ml-32 w-32"> Send</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- foter section -->
+        <div class="bg-black flex justify-center item-center w-full ">
+            <h1 class="text-white animation  text-2xl font-bold"> All@Copyright received by:- Digital Computing <br>
+                Deploped By:- <spam class="text-sky-400">Vasim Khan</spam>
+
+            </h1>
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Vasim khan', 'Web Deploper '],
+            typeSpeed: 100,
+            backspeed: 100,
+            backdelay: 1000,
+            loop: true
+        });
+    </script>
 </body>
 
 </html>
