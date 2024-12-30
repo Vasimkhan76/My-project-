@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .f {
+            font-family: sofia;
+        }
+
+        .c {
+            color: aqua;
+        }
+
+        .sr{
+            animation: Right 1s ease forwards;
+        }
+        .sl{
+            animation:  left 1s ease forwards;
+        }
+        .st{
+            animation: top 1s ease forwards;
+        }
+       @keyframes  Right {
+                          
+          0%{
+            transform: translateX(-100px)
+            
+          }
+          100%{
+            transform: translateX(0px);
+
+          }
+       }
+       @keyframes  left {
+                          
+          0%{
+            transform: translateX(100px)
+            
+          }
+          100%{
+            transform: translateX(0px);
+
+          }
+       }
+       @keyframes  top {
+                          
+          0%{
+            transform: translateY(100px)
+            
+          }
+          100%{
+            transform: translateY(0px);
+
+          }
+       }
+
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+    <div>
+        <!-- navbar start -->
+        <header>
+            <nav class="bg-black flex justify-between  ">
+                <!-- left sec. strat -->
+                <section class="flex">
+                    <img src="head.png" alt="logo" class="w-10 h-10
+                
+                    md:w-32 md:h-32">
+
+
+                    <h1 class="text-green-500 my-auto text-xs f md:text-3xl ">
+                        Vasim khan
+                    </h1>
+
+
+                </section>
+                <!-- left sec. close -->
+
+                <!-- right sec. strat -->
+                <section class="h-7 my-auto">
+                    <ul class="text-white flex  text-xs  md:text-2xl">
+                        <li class="mx-1 my-auto md:mx-4">
+                            <a href="#home">
+                                <i class="fa-solid fa-house text-white"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="mx-1 xl:mx-4">
+                            <a href="#about">
+                                <i class="fa-solid fa-user"></i>
+                                About
+                            </a>
+                        </li>
+                        <li class="mx-1 md:mx-4">
+                            <a href="#resume">
+                                <i class="fa-solid fa-list"></i>
+                                Resume
+                            </a>
+                        </li>
+                        <li class="mx-1 md:mx-4">
+                            <a href="#skill">
+                                <i class="fa-solid fa-heart"></i>
+                                Skill
+                            </a>
+                        </li>
+                        <li class="mx-1 md:mx-4">
+                            <a href="#project">
+                                <i class="fa-solid fa-envelope"></i>
+                                Project
+                            </a>
+                        </li>
+                        <li class="mx-1 md:mx-4">
+                            <a href="#contact">
+                                <i class="fa-solid fa-address-book"></i>
+                                Contact
+                            </a>
+                        </li>
+                    </ul>>
+                </section>
+                <!-- end of left sec -->
+            </nav>
+        </header>
+        <!-- start of home  -->
+
+        <section class="bg-[url(bg.jpg)] flex p-5 xl:h-svh" id="home">
+            <!-- social media links  -->
+
+            <!-- left sec.  -->
+            <div class="my-auto sr  w-10">
+                <h1>
+                    <i class="fa-brands fa-instagram c text-4xl my-2  md:text-5xl md:my-4"></i>
+                </h1>
+                <h1>
+                    <i class="fa-brands fa-facebook c text-4xl my-2  md:text-5xl md:my-4"></i>
+                </h1>
+                <h1>
+                    <i class="fa-brands fa-youtube c text-4xl my-2 md:text-5xl md:my-4"></i>
+                </h1>
+            </div>
+            <!-- end left sec.  -->
+
+            <!-- st. right sec.  -->
+
+            <div class=" mx-auto md:mx-0 md:flex md:justify-around md:ml-10 md:w-full md:h-full">
+
+                <!-- home img  -->
+                <img src="about.png" alt="person photo" class=" w-40 h-40 sl rounded-full md:w-96 md:h-96 md:my-auto md:st">
+                <!-- end home img  -->
+
+               <main class="md:my-auto st md:sl ">
+
+                   <div>
+                       <h1 class="text-green-500 text-center text-2xl md:text-6xl ">
+                           Hello People
+                        </h1>
+                        <h1 class="text-xl text-red-500 text-center md:text-5xl">
+                            I'am
+                            <span id="element" class="text-blue-300">
+                                
+                            </span>
+                        </h1>
+                    </div> 
+                    <div>
+                        
+                        <button class="text-white mt-2 ml-4 bg-sky-400 w-20 rounded-sm md:w-40 md:mt-4 md:h-16 "> <a href="#project">Project</a></button>
+                        <button class="text-white mt-2 ml-4 bg-sky-400 w-20 rounded-sm md:w-40 md:mt-4 md:h-16 "> <a href="#contact">contact</a></button>
+                    </div>
+                </main>
+            </div>
+            <!-- end right sec.  -->
+        </section>
+        <!-- end opf homw  -->
+
+        <!-- start about sec.  -->
+
+        <section class="bg-black p-5 md:flex md:p-10 md:justify-evenly " id="about">
+            <!-- left sec. st -->
+            <div>
+                <h1 class="text-yellow-600 text-3xl md:text-6xl">
+                    
+
+                        about
+                    
+                </h1>
+                <img src="ab.png" alt="about logo" class="w-32 md:w-72 md:h-72">
+            </div>
+            <!-- end left sec.  -->
+
+            <!-- st right sec.  -->
+            <div class="md:h-full">
+                <h1 class="text-sky-400 text-2xl md:text-4xl">
+                    Web Developer
+                </h1>
+                <h1 class="text-red-400 md:text-lg md:mt-2 ">
+                    I desing and code beautifully simple thing,and I love what I do
+                </h1>
+                <h1 class="text-white flex md:text-xl md:mt-2">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <strong>
+
+                        Brithday
+                    </strong>
+
+                    <p>
+                        : dd/mm/yyyy
+                    </p>
+                </h1>
+                <h1 class="text-white flex md:text-xl md:mt-2">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <strong>
+
+                        Website
+                    </strong>
+
+                    <p>
+                        :<a href="#" class="text-sky-400"> Visit Us</a>
+                    </p>
+                </h1>
+                <h1 class="text-white flex  md:text-xl md:mt-2">
+                    <i class="fa-solid fa-chevron-right"> </i>
+                    <strong>
+
+                        Phone
+                    </strong>
+
+                    <p>
+                        :843****915
+                    </p>
+                </h1>
+                <h1 class="text-white flex  md:text-xl md:mt-2">
+                    <i class="fa-solid fa-chevron-right"> </i>
+                    <strong>
+
+                        City
+                    </strong>
+
+                    <p>
+                        :Khandwa
+                    </p>
+                </h1>
+                <h1 class="text-white flex  md:text-xl md:mt-2">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <strong>
+
+                        Age
+                    </strong>
+
+                    <p>
+                        :19
+                    </p>
+                </h1>
+                <h1 class="text-white flex  md:text-xl md:mt-2">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <strong>
+
+                        Degree
+                    </strong>
+
+                    <p>
+                        :Data Science[running]
+                    </p>
+                </h1>
+                <h1 class="text-white flex  md:text-xl md:mt-2">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <strong>
+
+                        Email
+                    </strong>
+
+                    <p>
+                        :vasimdeploper786@gmail.com
+                    </p>
+                </h1>
+
+            </div>
+            <!-- end of right  -->
+        </section>
+        <!-- end of about sec.  -->
+
+        <!-- start resume sec.  -->
+
+        <section class="bg-gradient-to-r from-blue-300 p-5 md:bg-gradient-to-r md:from-sky-200 md:to-green-200" id="resume">
+            <h1 class="text-2xl md:text-6xl ">
+                Resume
+            </h1>
+            <h1 class="text-lg text-sky-600 md:text-3xl">
+                Summa
+            </h1>
+            <main class="flex ml-5 ">
+                <div class="bg-green-500 rounded-xl w-2 mr-2 md:">
+
+                </div>
+                <div class="md:text-xl">
+                    <h1>
+                        Vasim Khan
+                    </h1>
+                    <h1>
+                        Malgaon, Khandwa
+                    </h1>
+                    <h1>
+                        843****915
+                    </h1>
+                    <h1>
+                        vasimdeploper786@gmail.com
+                    </h1>
+                </div>
+            </main>
+
+            <h1 class="text-sky-600 text-lg md:text-3xl">
+                Education
+            </h1>
+            <main class="flex ml-5">
+                <div class="bg-green-500 rounded-xl w-2 mr-2">
+
+                </div>
+                <div>
+                    <h1 class="text-base md:text-2xl">
+                        Higher Secondary School
+                    </h1>
+                    <button class="bg-green-500 md:w-24 md:h-10 md:text-xl">2022-2023</button>
+                    <h1 class="md:text-xl">
+                        C.M Rise School Chhegaon Makhan Khandwa[m.p.]
+                    </h1>
+                    <h1 class="md:text-xl">
+                        I have Complete My class 12th From C.M Rise Chhegaon Makhan Khandwa[m.p.]
+                    </h1>
+                </div>
+            </main>
+
+            <h1 class="text-sky-600 text-lg md:text-3xl">
+                Educatiuon {Runing}
+            </h1>
+
+            <main class="flex ml-5">
+                <div class="bg-green-500 rounded-xl w-2 mr-2">
+
+                </div>
+                <div>
+                    <h1 class="text-base md:text-2xl">
+                        B.TECH In Data Science
+                    </h1>
+                    <button class="bg-green-500 md:w-24 md:h-10 md:text-xl"> 2024-2028</button>
+                    <h1 class="md:text-xl">
+                        Shri Dadaji Institute of Technology And Sceince
+                    </h1>
+                    <h1 class="md:text-xl">
+                        Currently I am doing my B.Tech in data science from SDITS Khandwa
+                    </h1>
+                </div>
+            </main>
+        </section>
+
+        <!-- end of resume sec.  -->
+
+        <!-- start of skill sec -->
+
+        <section class="p-5 bg-gradient-to-r from-gray-400 to-sky-300 md:p-16" id="skill">
+            <h1 class="mb-3 text-3xl md:text-6xl md:text-center">
+                Skill
+            </h1>
+            <main class="md:items-center md:flex md:justify-center">
+                <div class="md:w-3/4 md:h-full   ">
+                    <li class="list-none mt-1 md:mt- ">
+                        <div class="flex justify-between md:text-3xl">
+                            <h1 class="">
+                            <i class="fa-brands fa-html5 "></i>Html
+                        </h1>
+                        <p>
+                            80%
+                        </p>
+                    </div>
+                    <div class="w-full border-2 border- h-5 bg-gray-400 rounded-xl   ">
+                        <div class="bg-gradient-to-r from-indigo-500 to-pink-500 h-4 w-4/5 rounded-xl">
+
+                        </div>
+                    </div>
+                </li>
+                <li class="list-none mt-1 md:mt-5 ">
+                    <div class="flex justify-between  md:text-3xl">
+                        <h1 class="">
+                            <i class="fa-brands fa-css3-alt "></i>Css
+                        </h1>
+                        <p>
+                            75%
+                        </p>
+                    </div>
+                    <div class="w-full border-2 border- h-5 bg-gray-400 rounded-xl   ">
+                        <div class="bg-gradient-to-r from-indigo-500 to-pink-500 h-4 w-3/4 rounded-xl">
+                            
+                        </div>
+                    </div>
+                </li>
+                <li class="list-none mt-1 md:mt-5 ">
+                    <div class="flex justify-between  md:text-3xl">
+                        <h1 class="">
+                            <i class="fa-brands fa-js "></i>javascript
+                        </h1>
+                        <p>
+                            20%
+                        </p>
+                    </div>
+                    <div class="w-full border-2 border- h-5 bg-gray-400 rounded-xl   ">
+                        <div class="bg-gradient-to-r from-indigo-500 to-pink-500 h-4 w-1/5 rounded-xl">
+                            
+                        </div>
+                    </div>
+                </li>
+                <li class="list-none mt-1 md:mt-5 ">
+                    <div class="flex justify-between  md:text-3xl">
+                        <h1 class="">
+                            <i class="fa-brands fa-github "></i>Github
+                        </h1>
+                        <p>
+                            60%
+                        </p>
+                    </div>
+                    <div class="w-full border-2 border- h-5 bg-gray-400 rounded-xl   ">
+                        <div class="bg-gradient-to-r from-indigo-500 to-pink-500 h-4 w-3/5 rounded-xl">
+
+                        </div>
+                    </div>
+                </li>
+                <li class="list-none mt-1 md:mt-5 ">
+                    <div class="flex justify-between  md:text-3xl">
+                        <h1 class="">
+                            <i class="fa-brands fa-staylinked "></i>Tailwindcss
+                        </h1>
+                        <p>
+                            50%
+                        </p>
+                    </div>
+                    <div class="w-full border-2 border- h-5 bg-gray-400 rounded-xl   ">
+                        <div class="bg-gradient-to-r from-indigo-500 to-pink-500 h-4 w-2/4 rounded-xl">
+                            
+                        </div>
+                    </div>
+                </li>
+            </div>
+        </main>
+        </section>
+        <!-- end of skill sec.  -->
+
+        <!-- start project sce.  -->
+
+        <section class=" p-5 bg-black md:p-10" id="project">
+            <h1 class="text-sky-500 text-3xl md:text-6xl md:mb-5 mb-2">
+                Project
+            </h1>
+            <div class="grid grid-cols-2 gap-4  md:grid-cols-3 md:">
+                <!-- calculator  -->
+                <div class="border-2 p-2 bg-gray-200 flex justify-center items-center flex-col md:h-40">
+                    <h1 class="text-green-400">
+                        Calculator
+                    </h1>
+                    <p>
+                        beautiful Calculator
+                    </p>
+                    <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-20 mt-1 p-1">
+                        <a href="calc2.html" class="text-white">View</a>
+                    </button>
+                    <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-28 mt-3 p-1">
+                        <a href="./calc2.html" download="" class="text-white"><i class="fa-solid fa-circle-down"></i>download</a>
+                    </button>
+                </div>
+
+                <!-- linked in  -->
+                <div class="border-2 bg-gray-200 flex justify-center items-center flex-col md:h-40">
+                    <h1 class="text-green-400">
+                        linked in
+                    </h1>
+                    <p>
+                        linked login page
+                    </p>
+                    <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-20 mt-1 p-1">
+                        <a href=" linkedin.html" class="text-white">View</a>
+                    </button>
+                    <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-28 mt-3 p-1">
+                        <a href="./linkedin.html" download="" class="text-white"><i class="fa-solid fa-circle-down"></i>download</a>
+                    </button>
+                </div>
+                <!-- swamy vivekanand  -->
+                <div class="border-2 p-2 bg-gray-200 flex justify-center items-center flex-col md:h-40">
+                    <h1 class="text-green-400">
+                        swamy vivekanand
+                    </h1>
+                    <p>
+                        swamy vivekanand task
+                    </p>
+                    <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-20 p-1 mt-1">
+                        <a href=" sir.html" class="text-white">View</a>
+                    </button>
+
+                   <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-28 mt-3 p-1">
+                        <a href="./sir.html" download="" class="text-white"><i class="fa-solid fa-circle-down"></i>download</a>
+                    </button>
+                </div>
+
+                <!-- diwali  -->
+
+                <div class="border-2 bg-gray-200 flex justify-center items-center flex-col md:h-40">
+                    <h1 class="text-green-400">
+                        diwali task
+                    </h1>
+                    <p>
+                        Diwali wish
+                    </p>
+                    <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-20 p-1 mt-1">
+                        <a href=" task25.html" class="text-white">View</a>
+                    </button>
+
+                    <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-28 mt-3 p-1">
+                        <a href="./task25.html" download="" class="text-white"><i class="fa-solid fa-circle-down"></i>download</a>
+                    </button>
+                </div>
+
+                <!-- facebook res.  -->
+
+                <div class="border-2 p-2 bg-gray-200 flex justify-center items-center flex-col md:h-40">
+                    <h1 class="text-green-400">
+                        facebook
+                    </h1>
+                    <p>
+                        Facebook singup page
+                    </p>
+                    <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-20 mt-1 p-1">
+                        <a href=" fb sign up page.html " class="text-white">View</a>
+                    </button>
+
+                    <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-28 mt-3 p-1">
+                        <a href="./fb sign up page.html" download="" class="text-white"><i class="fa-solid fa-circle-down"></i>download</a>
+                    </button>
+                </div>
+
+                <!-- student page  -->
+                <div class="border-2 bg-gray-200 flex justify-center items-center flex-col">
+                    <h1 class="text-green-400">
+                        student task
+                    </h1>
+                    <p>
+                        student singup page
+                    </p>
+                    <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-20 p-1 mt-1">
+                        <a href=" studentpage.html" class="text-white">View</a>
+                    </button>
+
+                   <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-28 mt-3 p-1">
+                        <a href="./studentpage.html" download="" class="text-white"><i class="fa-solid fa-circle-down"></i>download</a>
+                    </button>
+                </div>
+
+                <!-- instrgram  -->
+
+                <div class="border-2 p-2 bg-gray-200 flex justify-center items-center flex-col md:h-40">
+                    <h1 class="text-green-400">
+                        Instagram
+                    </h1>
+                    <p>
+                        Instagram login page
+                    </p>
+                    <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-20 mt-1 p-1">
+                        <a href=" insta.html" class="text-white">View</a>
+                    </button>
+                    
+                    <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-28 mt-3 p-1">
+                        <a href="./insta.html" download="" class="text-white"><i class="fa-solid fa-circle-down"></i>download</a>
+                    </button>
+                </div>
+
+                <!-- facebook login  -->
+
+                <div class="border-2 p-2 bg-gray-200 flex justify-center items-center flex-col md:h-40">
+                    <h1 class="text-green-400">
+                        Facebook
+                    </h1>
+                    <p>
+                        Facebook login page
+                    </p>
+                    <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-20 p-1 mt-1">
+                        <a href=" fb.html" class="text-white">View</a>
+                    </button>
+                    
+                   <button class=" bg-gradient-to-r from-teal-400 to-blue-500 w-28 mt-3 p-1">
+                        <a href="./fb.html" download="" class="text-white"><i class="fa-solid fa-circle-down"></i>download</a>
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- end of project sec.  -->
+
+        <!-- start of contact sec.  -->
+
+        <section class="p-5 bg-gradient-to-r from-violet-400 to-gray-400 " id="contact">
+            <h1 class="md:text-4xl md:mb-2">
+                Contact <span>Me</span>
+            </h1>
+           <p class="md:text-lg md:mb-3">
+            Feel free for ask any thing 
+           </p>
+             
+           <main class=" bg-gradient-to-r from-sky-200 to-red-300 p-2 md:w-3/5 md:mx-auto">
+            
+            <div>
+
+                <!-- loction  -->
+                <div class="flex">
+                    
+                    <i class="fa-solid fa-location-dot text-4xl text-green-500"></i>
+                    <div>
+                        
+                        
+                        <h1 class="text-2xl">
+                            Location  
+                        </h1>
+                        <p >
+                            Malgaon,Khandwa[m.p.]
+                        </p>
+                    </div>
+                    
+                </div>
+                
+                <!-- email  -->
+                
+                <div class="flex">
+                    
+            <i class="fa-solid fa-at text-4xl  text-green-500"></i>
+                   <div>
+                       
+                       <h1 class="text-2xl">
+                           Eamil
+                        </h1>
+                        <p >
+                            vasimdeploper786@gmail.com
+                        </p>
+                    </div>
+                    
+                </div>
+                
+                <!-- phone  -->
+                
+                <div class="flex">
+                    
+                    <i class="fa-solid fa-phone text-4xl text-green-400"></i>
+                    
+                    <div>
+                        
+                        
+                        <h1 class="text-2xl">
+                            Phone
+                        </h1>
+                        <p >
+                            843****915
+                        </p>
+               </div>
+               
+            </div>
+            
+            
+            
+        </div>
+        </main>
+        
+            <!-- second  -->
+
+            <main class="grid grid-cols-1 gap-2 p-5 my-5 bg-gradient-to-r from-cyan-200 to-indigo-300 md:w-3/5 md:mx-auto  md:p-8">
+            <input type="text" name="name" placeholder="your name " class="border-2 border-black bg-gray-800 text-sky-400 p-1 rounded-md md:p-2">
+            <input type="email" name="name" placeholder="Email " class="border-2 border-black bg-gray-800 text-sky-400 p-1 rounded-md md:p-2">
+            <input type="text" name="name" placeholder="subject " class=" h-10 border-2 border-black bg-gray-800 p-1 text-sky-400 rounded-md md:p-2">
+            <textarea name="name" placeholder="type your message here" class=" h-20 border-2 border-black bg-gray-800 text-sky-400 rounded-md p-1 md:p-2"></textarea>
+            <button class=" w-32 mx-auto bg-gradient-to-r from-indigo-400 to-gray-400 md:p-2">Send massage</button>
+            </main>
+        </section>
+       
+        <!-- end of contact sec.  -->
+
+        <!-- start footer sec.  -->
+         <section class="p-5 flex justify-center items-center bg-gradient-to-r from-blue-200 to-gray-700 md:bg-gradient-to-r md:to-black md:from-cyan-300">
+            <div>
+                <h1>
+                    All @copyright:- Digital Computing <br/>
+                    Developed By:- <span >Vasim Khan</span> 
+                </h1>
+            </div>
+         </section>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Vasim khan', 'Web Developer ', 'Web Designer'],
+            typeSpeed: 100,
+            backspeed: 100,
+            backdelay: 1000,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>

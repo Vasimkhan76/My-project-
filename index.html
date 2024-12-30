@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
+
+</head>
+<body class="">
+    
+    <div class=" bg-gradient-to-r from-sky-300 to-rose-400 p-5  md:p-11 " id="mode">
+        <div class="bg-[url(bg.jfif)]  bg-no-repeat bg-cover " id="img" onclick="change()">
+
+            <!-- start nav  -->
+            <header>
+                <nav class="flex justify-between p-3 mr-2">
+                    <h1 class="mr-2 text-cyan-500 font-bold md:text-5xl">
+                        
+                        Vasim khan
+                    </h1>
+                    <ul class="flex  text-white md:text-3xl">
+                        <li class="mr-2 md:mr-5">
+                            <a href="#home">
+                             Home
+                            </a>
+                        </li>
+                        <li class="mr-2 md:mr-5">
+                            <a href="#about">
+                          About
+                            </a>
+                        </li>
+                        <li class="mr-2 md:mr-5">
+                            <a href="#sarvice">
+                          Services
+                            </a>
+                        </li>
+                        <li class="mr-2 md:mr-5">
+                            <a href="#course">
+                            course
+                            </a>
+                        </li>
+                        <li class="mr-2 md:mr-5">
+                            <a href="#contact">
+                                Contact
+                            </a>
+                        </li>
+                       
+                    </ul>
+                </nav>
+            </header>
+            <!-- end nav  -->
+
+             <!-- dark theme  -->
+              
+             <div class="flex justify-between p-4 md:text-white md:text-4xl">
+                <button onclick="light()" id="light" >
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                             <h1>light mode</h1>
+                    
+                </button>
+
+                <button onclick="dark()" id="dark">
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                 <h1>dark mode</h1>
+                </button>
+
+             </div>
+
+
+
+            <!-- start home  -->
+            <main class="border-2 border-sky-500 w-4/5  mx-auto bg-opacity-100 p-4 md:flex md:p-8 ">
+                <!--  start home left sec./  -->
+                <section class="p-2">
+                    <h1 class=" text-lg text-purple-400 md:text-4xl">
+
+                    
+                    Hello, People
+                </h1>
+                <h1 class="text-green-500 text-lg md:text-4xl">
+                    I'am Vasim khan
+                </h1>
+               <h1 class="text-white text-lg md:text-4xl">
+                Become The Best
+               </h1>
+               <span id="element" class="text-sky-400 text-lg md:text-4xl">
+
+               </span>
+               <h1 class="text-white text-lg md:text-4xl">
+                With MY Course
+               </h1>
+               <p class="text-red-500 md:text-lg">
+                Helo guys i am vasim khan. <br/> 
+                create free Html, Css ,and javascript full course for you.
+                Your login  the and see my portfolio
+                 and viwe and download my project. 
+               </p>
+                </section>
+                <!-- end home left sec.  -->
+
+                <!-- start home right sec.  -->
+
+               <section class=" w-full border-2 border-sky-400 mx-auto p-4 mt-4 ">
+                
+                <form action="portfolio.html">
+
+                    <div class="flex flex-col justify-center items-center md:text-2xl ">
+                        
+                        <h1 class=" font-bold text-lg text-white md:text-4xl"> 
+                            Login Here
+                        </h1>
+                        <input type=" text" placeholder="Username " name="username " class=" mt-2 p-2 bg-transparent border-b-2 ">
+                        <input type="password" placeholder="password" name="password" class="mt-2 p-2 bg-transparent border-b-2">
+                        
+                        <button class="bg-gradient-to-r from-sky-300 to-red-300 w-32  p-1 mt-5 md:w-52 md:p-3 md:text-3xl">
+                            
+                            Login
+                        </button>
+                        
+                        
+                    </div>
+                    
+                    
+                    <div class="mt-8 md:text-4xl ">
+                        <h1 class="text-white text-lg text-center md:text-4xl">
+                            
+                            login With 
+                        </h1>
+                        <ul class="flex justify-evenly text-4xl mt-5 text-green-400 ">
+                            <li>
+                                <a href="https://www.facebook.com/">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/?mx=2">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                        <a href="https://www.instagram.com/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                      </li>
+                      <li>
+                          <a href="https://www.google.co.in/">
+
+                              <i class="fa-brands fa-google"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+                </section>
+            </main>
+             <!-- end home  -->
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="v.js"></script>
+</body>
+</html>
